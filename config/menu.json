@@ -1,0 +1,53 @@
+{
+  "main": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "Chat",
+      "url": "/chat"
+    },
+    {
+      "name": "Blog",
+      "url": "/posts"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact"
+    },
+    {
+      "name": "My favorites",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Saved",
+          "url": "/saved"
+        },
+        {
+          "name": "Favorites",
+          "url": "/favorites"
+        }
+      ]
+    }
+  ],
+  "footer": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "About",
+      "url": "/about"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact"
+    },
+    {
+      "name": "Privacy Policy",
+      "url": "#"
+    }
+  ]
+}
