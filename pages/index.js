@@ -107,7 +107,7 @@ const Home = ({
             {posts.map((post, i) => (
               <div className="flex flex-col items-center justify-center" key={`key-${i}`}>
                 {post.frontmatter.image && (
-                  <img
+                  <ImageFallback
                     className="mb-2 h-[85px] w-[85px] rounded-full object-cover"
                     src={post.frontmatter.image}
                     alt={post.frontmatter.title}
